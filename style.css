@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #202134;
+}
+
+.card {
+    border: 2px solid #03e886;
+    background-color: transparent;
+}
+
+.card-text {
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    font-style: italic;
+}
+
+.menu {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: #202134e5;
+    height: 100%;
+    width: 350px;
+    transition: 1s;
+    transform: translateX(-100%);
+}
+
+.list {
+    margin-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.list-item {
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 5px;
+    background: #00000055;
+    border: 1px solid #03e886;
+    padding: 7px;
+}
+
+.list-item:hover {
+    color: #02d97c;
+}
+
+.txt {
+    color: #fff;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.left-menu {
+    z-index: 1;
+}
+
+.image {
+    width: 100%;
+    background: url(./img/Quvonchbek.jpg) cover no-repeat;
+}
+
+.btn-on,
+.btn-off {
+    z-index: 10;
+    border: 2px solid #03e886;
+    background: #202134;
+    margin-left: 0px;
+    border-radius: 13px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn-on {
+    display: block;
+    margin-left: 0;
+}
+
+.btn-off {
+    display: none;
+    margin-left: 350px;
+}
+
+.btn-on:hover,
+.btn-on:active:focus {
+    border: 2px solid #03e886;
+    background: #202134;
+}
+
+.btn-off:hover,
+.btn-off:active:focus {
+    border: 2px solid #03e886;
+    background: #202134;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 290px;
+}
